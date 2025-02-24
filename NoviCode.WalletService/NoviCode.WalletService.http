@@ -1,0 +1,6 @@
+@NoviCode.WalletService_HostAddress = http://localhost:5044
+
+GET {{NoviCode.WalletService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

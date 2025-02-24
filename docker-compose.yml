@@ -1,0 +1,6 @@
+﻿services:
+  novicode.walletservice:
+    image: novicode.walletservice
+    build:
+      context: .
+      dockerfile: NoviCode.WalletService/Dockerfile
