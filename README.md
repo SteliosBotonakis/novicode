@@ -18,7 +18,7 @@ Additionally, a background service fetches the latest exchange rates from the Eu
 ### 1. Clone the Repository
 Clone the repository to your local machine:
 ```sh
-git clone https://github.com/SteliosBotonakis/novicode
+git clone https://github.com/SteliosBotonakis/novicode.git
 ```
 
 ### 2. Update the Database Connection String
