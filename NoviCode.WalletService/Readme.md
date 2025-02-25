@@ -18,7 +18,7 @@ Additionally, a background service fetches the latest exchange rates from the Eu
 ### 1. Clone the Repository
 Clone the repository to your local machine:
 ```sh
-git clone https://your-repository-url.git
+git clone https://github.com/SteliosBotonakis/novicode
 ```
 
 ### 2. Update the Database Connection String
@@ -26,7 +26,7 @@ Update the connection string in the `appsettings.json` file to point to your SQL
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=WalletService;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "MyDb": "Server=(localdb)\\mssqllocaldb;Database=NoviCodeDb;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 }
 ```
